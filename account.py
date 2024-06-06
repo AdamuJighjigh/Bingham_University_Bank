@@ -1,6 +1,6 @@
 class Account:
     def __init__(self):
-        self.balance = 10000
+        self.balance = 100000
         self.__interest_rate = (0.5/100)
         self.__id_number = 'DG57895'
         self.__interest = (0.7/100)
