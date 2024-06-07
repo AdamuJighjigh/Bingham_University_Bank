@@ -12,7 +12,7 @@ def deposit(self, amount):
         if amount <= 50000:
             super().deposit(amount)
         else:
-            print("amount exceeds deposit limit!")
+            print("Deposit limit exceeded!")
 
 
 student = StudentAccount()
