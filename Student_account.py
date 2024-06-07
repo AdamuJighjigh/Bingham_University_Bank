@@ -17,4 +17,4 @@ def deposit(self, amount):
 
 student = StudentAccount()
 student.withdrawal(1990)
-student.deposit(1000)
+student.deposit(1500)
