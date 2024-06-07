@@ -6,7 +6,7 @@ class SavingsAccount(Account):
 
     def deposit(self, amount):
         self.balance = self.balance + amount
-        rate = self.balance * (0.5/100)
+        rate = self.balance * (0.005)
         self.balance = self.balance + rate
         print("New balance is: ", self.balance)
 
