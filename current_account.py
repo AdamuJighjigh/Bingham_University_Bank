@@ -5,5 +5,5 @@ class CurrentAccount(Account):
         Account.__init__(self)
 
 current = CurrentAccount()
-current.deposit(5000)
+current.deposit(4000)
 current.withdrawal(1000)
