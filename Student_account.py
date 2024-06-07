@@ -8,12 +8,12 @@ class StudentAccount(Account):
             super().withdrawal(amount)
         else:
             print("Withdraw limit exceeded")
-
-    def deposit(self, amount):
+def deposit(self, amount):
         if amount <= 50000:
             super().deposit(amount)
         else:
             print("amount exceeds deposit limit!")
+
 
 student = StudentAccount()
 student.withdrawal(1999)
