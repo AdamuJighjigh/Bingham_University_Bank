@@ -5,7 +5,7 @@ class ChildrenAccount(Account):
         Account.__init__(self)
 
     def deposit(self, amount):
-        self.__interest = amount * (0.007)
+        self.__interest = amount * 0.007
         self.balance = self.balance + amount
         self.balance = self.balance + self.__interest
         print("New balance is: ", self.balance)
