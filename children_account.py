@@ -14,5 +14,5 @@ class ChildrenAccount(Account):
         print("This function is not available to this account")
 
 children = ChildrenAccount()
-children.deposit(7000)
+children.deposit(9000)
 children.withdrawal()
