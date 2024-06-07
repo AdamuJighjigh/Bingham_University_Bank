@@ -8,7 +8,7 @@ class SavingsAccount(Account):
         self.balance = self.balance + amount
         rate = self.balance * (0.005)
         self.balance = self.balance + rate
-        print("New balance is: ", self.balance)
+        print("New Balance: ", self.balance)
 
     def withdrawal(self, amount):
         if amount <= 700000:
