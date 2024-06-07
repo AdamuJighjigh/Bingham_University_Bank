@@ -11,7 +11,7 @@ class ChildrenAccount(Account):
         print("New balance is: ", self.balance)
 
     def withdrawal(self):
-        print("This function is not available to this account")
+        print("sorry this function is not available to this account")
 
 children = ChildrenAccount()
 children.deposit(8000)
