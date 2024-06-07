@@ -6,4 +6,4 @@ class CurrentAccount(Account):
 
 current = CurrentAccount()
 current.deposit(4000)
-current.withdrawal(1000)
+current.withdrawal(2000)
